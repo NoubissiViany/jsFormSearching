@@ -65,17 +65,17 @@ function searchUsers (name, age) {
           )
         )
       } else {
-        reject([new Error])
+        reject(new Error([]))
       }
     }, 2000)
   })
 }
 
 function loader () {
-  return `<div class="load"></div>`
+  return '<div class="load"></div>'
 }
 function renderMessage (message) {
-  return `<div class="message">${message}</div>`
+  return `<div class='message'>${message}</div>`
 }
 
 userContainer.innerHTML = displayUsers(person)
