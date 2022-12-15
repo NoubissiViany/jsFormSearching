@@ -8,9 +8,8 @@
 }
 
 .container1 {
-  flex-direction: row;
   display: flex;
-  flex-flow: wrap;
+  flex-direction: row;
   gap: 30px;
   border-bottom: 2px solid black;
   padding-bottom: 25px;
@@ -88,10 +87,6 @@ button {
 }
 
 @keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
