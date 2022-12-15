@@ -31,7 +31,7 @@ Knowledge about:
 
 - $ git clone `git@github.com:NoubissiViany/Js-Form-Searching.git`
 - $ `cd jsFormSearching`
-- $ `git checkout feature/jsFormSearching`
+- $ `git checkout feature/FormSearching`
 
 ## Start App
 
